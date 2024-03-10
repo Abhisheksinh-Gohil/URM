@@ -1,0 +1,34 @@
+/* 
+Abhisheksinh Gohil – 1002060621, Jainam Gandhi – 1002080417, Manali Gandhi - 1002084355, Nadella Kailash - 1002065981, Ragini Gopidi - 1002036432
+*/
+.table-card {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: 20px;
+    border-radius: 3px;
+    color: #101728;
+    position: relative;
+    padding: 12px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+    margin: 12px;
+  }
+
+table {
+    width: 1000px;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    background-color: #101728;
+    color: white;
+}

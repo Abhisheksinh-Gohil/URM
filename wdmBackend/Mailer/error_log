@@ -1,0 +1,469 @@
+[04-Aug-2023 06:16:38 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "firstName" on bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 41
+[04-Aug-2023 06:18:51 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "firstName" on bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 41
+[04-Aug-2023 06:19:21 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "firstName" on bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 41
+[04-Aug-2023 06:22:26 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "firstName" on bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 41
+[04-Aug-2023 06:24:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:51
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(51): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 51
+[04-Aug-2023 06:25:03 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "firstName" on bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 43
+[04-Aug-2023 06:25:54 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "firstName" on bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 43
+[04-Aug-2023 06:27:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'phonenumber' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:51
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(51): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 51
+[04-Aug-2023 06:28:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'phonenumber' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:51
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(51): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 51
+[04-Aug-2023 06:29:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'verificationCode' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:51
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(51): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 51
+[04-Aug-2023 06:30:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer" not found in /home/aag0621/public_html/wdmBackend/Mailer/register.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 53
+[04-Aug-2023 06:31:24 UTC] PHP Warning:  Undefined variable $email in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 67
+[04-Aug-2023 06:31:26 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 4 Au...', 'Thanks for regi...')
+#2 /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/aag0621/public_html/wdmBackend/Mailer/register.php(68): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php on line 2233
+[04-Aug-2023 06:32:38 UTC] PHP Warning:  Undefined variable $email in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 67
+[04-Aug-2023 16:09:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aag0621/public_html/wdmBackend/Mailer/register.php:1) in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 6
+[04-Aug-2023 16:09:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aag0621/public_html/wdmBackend/Mailer/register.php:1) in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 7
+[04-Aug-2023 16:09:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aag0621/public_html/wdmBackend/Mailer/register.php:1) in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 8
+[04-Aug-2023 16:09:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/aag0621/public_html/wdmBackend/Mailer/register.php:69
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(69): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 69
+[04-Aug-2023 16:12:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/aag0621/public_html/wdmBackend/Mailer/register.php:68
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(68): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 68
+[04-Aug-2023 16:14:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`aag0621_wdm_backend`.`urmJobPref`, CONSTRAINT `urmJobPref_ibfk_1` FOREIGN KEY (`candidateId`) REFERENCES `urmCandidate` (`candidateId`)) in /home/aag0621/public_html/wdmBackend/Mailer/register.php:68
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(68): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 68
+[04-Aug-2023 16:36:32 UTC] PHP Parse error:  Unclosed '{' on line 58 does not match ')' in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 72
+[04-Aug-2023 16:38:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ethnicity' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:74
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 74
+[04-Aug-2023 16:40:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'locPref' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:94
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(94): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 94
+[04-Aug-2023 16:47:26 UTC] PHP Warning:  Undefined variable $email in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 150
+[04-Aug-2023 17:32:20 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[04-Aug-2023 23:45:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'Male' for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:53
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(53): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 53
+[04-Aug-2023 23:48:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/aag0621/public_html/wdmBackend/Mailer/register.php:151
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(151): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 151
+[04-Aug-2023 23:52:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/aag0621/public_html/wdmBackend/Mailer/register.php:151
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(151): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 151
+[04-Aug-2023 23:57:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/aag0621/public_html/wdmBackend/Mailer/register.php:151
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(151): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 151
+[04-Aug-2023 23:59:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/aag0621/public_html/wdmBackend/Mailer/register.php:151
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(151): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 151
+[05-Aug-2023 00:11:29 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 00:27:43 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 25
+[05-Aug-2023 00:27:43 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 00:30:55 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 25
+[05-Aug-2023 00:30:55 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 00:34:52 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 25
+[05-Aug-2023 00:34:52 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 00:40:21 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 25
+[05-Aug-2023 00:40:21 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 02:06:44 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 162
+[05-Aug-2023 02:08:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 162
+[05-Aug-2023 02:26:24 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 25
+[05-Aug-2023 02:26:24 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 02:55:52 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 25
+[05-Aug-2023 02:55:52 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 03:03:25 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 26
+[05-Aug-2023 03:03:25 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 03:04:14 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 03:04:21 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 03:04:36 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 03:05:24 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 26
+[05-Aug-2023 03:05:24 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 03:06:04 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 26
+[05-Aug-2023 03:06:04 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 03:14:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'age' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:74
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 74
+[05-Aug-2023 03:15:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'age' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:74
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 74
+[05-Aug-2023 03:23:28 UTC] PHP Warning:  Attempt to read property "role" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 26
+[05-Aug-2023 03:23:28 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "email" on null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 29
+[05-Aug-2023 03:25:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:74
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(74): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 74
+[05-Aug-2023 03:26:08 UTC] PHP Warning:  Undefined property: stdClass::$academiaEmail in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 155
+[05-Aug-2023 03:39:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:165
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(165): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 165
+[05-Aug-2023 03:40:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:165
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(165): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 165
+[05-Aug-2023 03:40:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:165
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(165): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 165
+[05-Aug-2023 03:41:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:165
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(165): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 165
+[05-Aug-2023 04:08:14 UTC] PHP Warning:  Array to string conversion in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 187
+[05-Aug-2023 04:08:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list' in /home/aag0621/public_html/wdmBackend/Mailer/register.php:190
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(190): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 190
+[05-Aug-2023 04:22:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[05-Aug-2023 04:22:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[05-Aug-2023 04:24:35 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 04:24:45 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 04:35:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'resumeLocation' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:73
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 73
+[05-Aug-2023 04:35:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'resumeLocation' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:73
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 73
+[05-Aug-2023 04:36:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:198
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(198): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 198
+[05-Aug-2023 04:37:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:198
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(198): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 198
+[05-Aug-2023 04:41:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:197
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(197): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 197
+[05-Aug-2023 15:40:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:198
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(198): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 198
+[05-Aug-2023 15:42:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:199
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(199): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 199
+[05-Aug-2023 16:16:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:199
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(199): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 199
+[05-Aug-2023 16:17:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:199
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(199): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 199
+[05-Aug-2023 16:19:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:201
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(201): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 201
+[05-Aug-2023 16:21:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'password' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[05-Aug-2023 16:21:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'password' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[05-Aug-2023 16:22:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/aag0621/public_html/wdmBackend/Mailer/register.php:206
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(206): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 206
+[05-Aug-2023 16:23:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deiId' in 'field list' in /home/aag0621/public_html/wdmBackend/Mailer/register.php:206
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(206): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 206
+[05-Aug-2023 16:23:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deiId' in 'field list' in /home/aag0621/public_html/wdmBackend/Mailer/register.php:207
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(207): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 207
+[05-Aug-2023 20:02:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[05-Aug-2023 20:04:03 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[05-Aug-2023 20:53:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[05-Aug-2023 21:36:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 186
+[05-Aug-2023 21:36:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:191
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(191): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 191
+[05-Aug-2023 22:23:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 186
+[05-Aug-2023 22:23:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:191
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(191): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 191
+[05-Aug-2023 22:24:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 186
+[05-Aug-2023 22:24:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:191
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(191): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 191
+[05-Aug-2023 22:26:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 186
+[05-Aug-2023 22:29:01 UTC] PHP Warning:  Undefined array key "userId" in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 185
+[05-Aug-2023 22:30:02 UTC] PHP Warning:  Undefined array key "userId" in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 185
+[05-Aug-2023 22:30:40 UTC] PHP Warning:  Undefined array key "userId" in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 187
+[05-Aug-2023 22:31:49 UTC] PHP Warning:  Undefined array key "userId" in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 187
+[05-Aug-2023 22:33:48 UTC] PHP Warning:  Undefined array key "userId" in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 187
+[05-Aug-2023 22:34:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "userId" in /home/aag0621/public_html/wdmBackend/Mailer/register.php:187
+Stack trace:
+#0 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 187
+[05-Aug-2023 22:51:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php:1604
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php(1512): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/aag0621/public_html/wdmBackend/Mailer/register.php(238): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/phpMailer/src/PHPMailer.php on line 1604
+[06-Aug-2023 00:17:55 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[06-Aug-2023 00:20:27 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[06-Aug-2023 00:20:45 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[06-Aug-2023 01:19:45 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 36
+[06-Aug-2023 03:56:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[06-Aug-2023 03:57:41 UTC] PHP Warning:  Undefined array key "isVerified" in /home/aag0621/public_html/wdmBackend/Mailer/verifyMail.php on line 34
+[06-Aug-2023 20:03:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[06-Aug-2023 20:04:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:17:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:18:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'phonenumber' at row 1 in /home/aag0621/public_html/wdmBackend/Mailer/register.php:52
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(52): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 52
+[07-Aug-2023 03:55:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'resumeLocation' cannot be null in /home/aag0621/public_html/wdmBackend/Mailer/register.php:73
+Stack trace:
+#0 /home/aag0621/public_html/wdmBackend/Mailer/register.php(73): PDOStatement->execute()
+#1 {main}
+  thrown in /home/aag0621/public_html/wdmBackend/Mailer/register.php on line 73

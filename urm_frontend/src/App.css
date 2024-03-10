@@ -1,0 +1,20 @@
+/* 
+Abhisheksinh Gohil – 1002060621, Jainam Gandhi – 1002080417, Manali Gandhi - 1002084355, Nadella Kailash - 1002065981, Ragini Gopidi - 1002036432
+*/
+.App {
+  text-align: center;
+  background-color: #101728;
+}
+
+.chat-btn {
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px;
+  border: 0;
+  background-image: linear-gradient(to right, #d6049b 2%, #7f3aff 51%);
+  position: fixed;
+  z-index: 1;
+  margin-block-end: 0;
+  right: 2px;
+  bottom: 40px;
+}

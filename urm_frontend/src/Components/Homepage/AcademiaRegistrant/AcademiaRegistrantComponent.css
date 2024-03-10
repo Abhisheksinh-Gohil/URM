@@ -1,0 +1,87 @@
+/* 
+Abhisheksinh Gohil – 1002060621, Jainam Gandhi – 1002080417, Manali Gandhi - 1002084355, Nadella Kailash - 1002065981, Ragini Gopidi - 1002036432
+*/
+.homepage {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div { 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    color: white;
+}
+
+.Academia-Register {
+    font-size: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 50px;
+}
+/* Container styles */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;  /* the background color */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Container title styles */
+  .container .title {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    justify-content: flex-start; /* flex-start places the content at the start */
+    color: black;
+  }
+  
+  /* Container form user details styles */
+  .container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; /* providing space between the content */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Container form user details input box styles */
+  .user-details .input-box {
+    margin-right: 40px;
+    padding: 5px;
+    width: 40%; /* Setting the width to 50% of its parent element's width minus 20 pixels */
+  }
+  
+  /* Container form user input box styles */
+  .user-details .input-box {
+    display: block;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  /* Container form user details input box input styles */
+  .user-details .input-box input {
+    height: 15px;
+    width: 100%;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: purple; /* background color for the button */
+    color: #fff;
+    padding: 5px 5px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
